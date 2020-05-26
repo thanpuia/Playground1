@@ -12,7 +12,21 @@
         android:layout_height="wrap_content"
         android:text="HIDE?SHOW"
         android:onClick="showOrHideClick"/>
-
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="alert dialog"
+        android:onClick="alertdialogClick"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="marker dragg"
+        android:onClick="mapMarkerClick"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="map drag"
+        android:onClick="mapDragClick"/>
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"

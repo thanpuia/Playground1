@@ -1,0 +1,24 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=6B:FE:A8:ED:CD:DD:60:74:57:FC:AA:3A:45:A5:B0:9E:F5:E7:3C:CC%3Bcom.give.playground1.map_marker_drag
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    com.give.playground1.map_marker_drag
+
+    SHA-1 certificate fingerprint:
+    6B:FE:A8:ED:CD:DD:60:74:57:FC:AA:3A:45:A5:B0:9E:F5:E7:3C:CC
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">YOUR_KEY_HERE</string>
+</resources>
